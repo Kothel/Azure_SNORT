@@ -5,7 +5,7 @@
   
   
 ## <a>Walkthrough </b>
-###  1. First create honeypot VM
+###  1. First create snort VM
   - make vm
   - ![image](https://github.com/user-attachments/assets/cde4a592-a2b6-49ee-9258-b963dd2946b4)
   - connect through ssh in powershell
@@ -19,13 +19,13 @@
 ###  2. setup snort
   - move to snortconfig
   - ![image](https://github.com/user-attachments/assets/d1ee031a-3ba7-41e1-bab8-f11d4c1135fb)
-  - chang theipvar home net to the subnet
+  - change the ipvar home net to the subnet
   - ![image](https://github.com/user-attachments/assets/7cfd9ba9-d4f2-419f-a25d-b445731c3026)
   - enable logging with alertfast
   - ![image](https://github.com/user-attachments/assets/d2fd8990-7809-4849-b809-5228516c5fe9)
   - test if snort will run
   - ![image](https://github.com/user-attachments/assets/43a4054f-dca6-4142-b80d-95099a7d8a3f)
-  - configure snort to run continously as a demon
+  - configure snort to run continously as a deamon
   - ![image](https://github.com/user-attachments/assets/d7426e51-30b1-4df2-afa7-f77a77ff4eea)
   - enable to script to run every minute via cron
   - ![image](https://github.com/user-attachments/assets/fa4a4cb2-313e-449f-9b1e-7ba687639ad4)
